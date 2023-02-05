@@ -52,11 +52,11 @@ fi
 
 echo "Downloading start server script"
 cd ~
-curl -o start.sh https://raw.githubusercontent.com/Kuldeepjangid123/JIOTVSERVER/main/start.sh
+curl -o start.sh https://raw.githubusercontent.com/dhruv-2015/JIOTVServer/main/V2.0.3/start.sh
 if [ $? -eq 0 ]; then
    echo "Script downloaded successfully"
 else
-    echo "Failed to download start script. Please run wget https://raw.githubusercontent.com/Kuldeepjangid123/JIOTVSERVER/main/start.sh to download"
+    echo "Failed to download start script. Please run wget https://raw.githubusercontent.com/dhruv-2015/JIOTVServer/main/V2.0.3/start.sh to download"
     exit 1
 fi
 
